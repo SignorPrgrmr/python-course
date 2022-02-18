@@ -47,3 +47,9 @@ print(result)
 # 4.
 # a, b, c = 3, 5, 7
 # a, b, c = b, c, a
+
+
+# Home Exercise
+# 1. Yek list'e xali tarif karde va be tartib nam, nam'e xanevadegi & senne xod ra be list append konid
+# 2. daxele haman list dar andise 2 pasvande familiye xod ra ezafe konid
+
