@@ -20,3 +20,13 @@ my_list = my_list + [9, 10, 12]
 my_list = my_list * 3
 
 print(my_list)
+
+# String formatting
+name = 'Amin'
+age = '20'
+math_score = 20 / 3 * 2
+
+message = "Your name is %s and you're %s years old. Your score in math is %.10f" % (name, age, math_score)
+
+print('A message has arrived: %s' % message)
+print(math_score)

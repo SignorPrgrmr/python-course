@@ -53,3 +53,6 @@ print(result)
 # 1. Yek list'e xali tarif karde va be tartib nam, nam'e xanevadegi & senne xod ra be list append konid
 # 2. daxele haman list dar andise 2 pasvande familiye xod ra ezafe konid
 # 3. xanei ke nam ra dar an qarar dadeid ba sen jabeja konid +
+# 4. yek payam ba estefade az magadire list chap konid ke be shekle zir bashad
+#   'My name is Amin Farzane Ghazani. I'm 20 years old'
+# [20, 'Farzane', 'Ghazani', 'Amin']
