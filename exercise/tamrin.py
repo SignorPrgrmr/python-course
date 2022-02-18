@@ -52,4 +52,4 @@ print(result)
 # Home Exercise
 # 1. Yek list'e xali tarif karde va be tartib nam, nam'e xanevadegi & senne xod ra be list append konid
 # 2. daxele haman list dar andise 2 pasvande familiye xod ra ezafe konid
-
+# 3. xanei ke nam ra dar an qarar dadeid ba sen jabeja konid +
