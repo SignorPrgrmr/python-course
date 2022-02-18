@@ -1,6 +1,10 @@
 # List Data Type
 my_list = [1, 2, 3, 4, 5, 6, 7]
 
+# Dastrasi be xanehaye list
+my_variable = my_list[0]
+my_variable = my_list[6]
+
 # Append
 my_list.append(56)
 
