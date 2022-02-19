@@ -1,21 +1,21 @@
 # Store firstname and lastname in a variable and print your fullname.
 
-firstname = 'zahra'
-lastname = 'salahpour'
-print(firstname, lastname)
+# firstname = 'zahra'
+# lastname = 'salahpour'
+# print(firstname, lastname)
 
 # Pi = 3.14, radius = r, print
-r = 2
-pi = 3.14
-area = pi * r ** 2
-print(area)
+# r = 2
+# pi = 3.14
+# area = pi * r ** 2
+# print(area)
 
 # prepend 0 at the beginning of a list using +
-list = [1, 2, 3]
-
-result = [0] + list
-
-print(result)
+# list = [1, 2, 3]
+#
+# result = [0] + list
+#
+# print(result)
 
 # Home Exercise
 # 1. magadire 3 va 5 ra be tartib daxele a va b garar dahid va jabeja konid (hint: ba estefade az c)
@@ -56,3 +56,18 @@ print(result)
 # 4. yek payam ba estefade az magadire list chap konid ke be shekle zir bashad
 #   'My name is Amin Farzane Ghazani. I'm 20 years old'
 # [20, 'Farzane', 'Ghazani', 'Amin']
+
+# 1
+my_list = []
+my_list.append('Amin')
+my_list.append('Farzane')
+my_list.append(20)
+
+# 2
+my_list.insert(2, 'Ghazani')
+
+# 3
+my_list[0], my_list[3] = my_list[3], my_list[0]
+
+# 4
+print("My name is %s %s %s. I'm %d years old" % (my_list[3], my_list[1], my_list[2], my_list[0]))
