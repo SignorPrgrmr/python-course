@@ -57,17 +57,23 @@
 #   'My name is Amin Farzane Ghazani. I'm 20 years old'
 # [20, 'Farzane', 'Ghazani', 'Amin']
 
-# 1
-my_list = []
-my_list.append('Amin')
-my_list.append('Farzane')
-my_list.append(20)
+# # 1
+# my_list = []
+# my_list.append('Amin')
+# my_list.append('Farzane')
+# my_list.append(20)
+#
+# # 2
+# my_list.insert(2, 'Ghazani')
+#
+# # 3
+# my_list[0], my_list[3] = my_list[3], my_list[0]
+#
+# # 4
+# print("My name is %s %s %s. I'm %d years old" % (my_list[3], my_list[1], my_list[2], my_list[0]))
 
-# 2
-my_list.insert(2, 'Ghazani')
-
-# 3
-my_list[0], my_list[3] = my_list[3], my_list[0]
-
-# 4
-print("My name is %s %s %s. I'm %d years old" % (my_list[3], my_list[1], my_list[2], my_list[0]))
+# 1. ba estefade az function input() yek jomle az karbar daryaft konid va on ra daxele motaghayyeri zaxire konid
+# 2. character'e 'H' va 'h' ra be name xod tabdil konid va chap konid
+# 3. tule reshteye jadid ra chap konid
+# 4. jomle ra ta nesfe xodash chap konid +
+# 5. kalamate jomle ra jodagane chap konid +
