@@ -77,3 +77,22 @@
 # 3. tule reshteye jadid ra chap konid
 # 4. jomle ra ta nesfe xodash chap konid +
 # 5. kalamate jomle ra jodagane chap konid +
+
+# 1
+sentence = input('Please enter something: ')
+
+# 2
+changed_sentence = sentence.replace('H', 'Amin').replace('h', 'Amin')
+
+# 3
+print('Length of new sentence: ', len(changed_sentence))
+
+# 4
+length_of_sentence = len(sentence)
+half_of_length = length_of_sentence // 2
+print(sentence[0:half_of_length + 1])
+
+# 5
+words = sentence.split(' ')
+print(words)
+
