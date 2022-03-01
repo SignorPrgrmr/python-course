@@ -78,21 +78,28 @@
 # 4. jomle ra ta nesfe xodash chap konid +
 # 5. kalamate jomle ra jodagane chap konid +
 
-# 1
-sentence = input('Please enter something: ')
+# # 1
+# sentence = input('Please enter something: ')
+#
+# # 2
+# changed_sentence = sentence.replace('H', 'Amin').replace('h', 'Amin')
+#
+# # 3
+# print('Length of new sentence: ', len(changed_sentence))
+#
+# # 4
+# length_of_sentence = len(sentence)
+# half_of_length = length_of_sentence // 2
+# print(sentence[0:half_of_length + 1])
+#
+# # 5
+# words = sentence.split(' ')
+# print(words)
 
-# 2
-changed_sentence = sentence.replace('H', 'Amin').replace('h', 'Amin')
-
-# 3
-print('Length of new sentence: ', len(changed_sentence))
-
-# 4
-length_of_sentence = len(sentence)
-half_of_length = length_of_sentence // 2
-print(sentence[0:half_of_length + 1])
-
-# 5
-words = sentence.split(' ')
-print(words)
-
+# 1: Ba estefade az function input yek adad az karbar daryaft konid va zowj ya fard budane adad ra barresi va chap konid
+# 2: Yek jomle az karbar daryaft karde va barresi konid ke daxelash kalameye Amin vojud darad ya na va natije ra chap konid. +
+# 3: 2 kalme az karbar daryaft konid va anha ra daxele do motaghayyere jodagane zaxire konid
+# sepas kalamat (ya jomalat) ra ba ham mogayese konid
+# agar kalmeye avval > dovvom bud chap konid avval > dovvom
+# agar kalmeye dovvom > avval bud chap knod dovvom > avval
+# agar mosavi budand chap konid avval == dovvom
